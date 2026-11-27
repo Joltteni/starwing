@@ -375,16 +375,6 @@ address {
     .toive-asettelu {
         grid-template-columns: 1fr;
     }
-
-    .contact img {
-        width: 180px;
-        height: 200px;
-    }
-
-    .contact iframe {
-        width: 180px;
-        height: 180px;
-    }
 }
 
 /*navbari korjaus (scrollattava)*/
