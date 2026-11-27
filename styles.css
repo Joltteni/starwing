@@ -312,6 +312,28 @@ select {
 address {
     font-style: normal;
 }
+/*yhteistiedot*/
+.contact {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+}
+
+.contact .personalname {
+    font-size: 1.5rem;
+    color: var(--korostus2);
+    
+}
+
+.contact img {
+    width: 300px;
+    height: 300px;
+}
+.contact iframe {
+    width: 300px;
+    height: 350px;
+}
 
 /*responsiivisuus*/
 @media (max-width: 900px) {
@@ -333,5 +355,13 @@ address {
 
     .toive-asettelu {
         grid-template-columns: 1fr;
+    }    
+    .contact img {
+        width: 180px;
+        height: 200px;
+    }
+    .contact iframe {
+        width: 180px;
+        height: 180px;
     }
 }
